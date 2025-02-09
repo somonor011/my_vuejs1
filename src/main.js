@@ -1,8 +1,10 @@
 // import './assets/main.css'
-import './assets/TempleteRefs.css'
+// import './assets/templetTempleteRefs_style/Refs.css'
 
 import { createApp } from 'vue'
 // import App from './components/App.vue'
-import TempleteRefs from './components/TempleteRefs.vue'
+// import TempleteRefs from './components/templeteRefs/TempleteRefs.vue'
+import App from './components/multiComponent/App.vue'
 
-createApp(TempleteRefs).mount('#app')
+
+createApp(App).mount('#app')
